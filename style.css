@@ -15,7 +15,7 @@ body{
     justify-content: center;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Gene;
-    min-height: 1000vh;
+    min-height: 100vh;
 }
 
 h1{
@@ -38,4 +38,9 @@ h2{
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
+}
+
+.tecla{
+    background-color: var(--branca);
+    border-
 }
