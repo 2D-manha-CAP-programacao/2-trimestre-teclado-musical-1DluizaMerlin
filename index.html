@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Teclado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="img/a.jpeg">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <h1> Teclado sons</h1>
-    <h2>Silly cats :3</h2>
+
+    <h1>Silly cats</h1>
+
     <section class="teclado">
         <button class="tecla tecla-som-1"><img src="./img/a.jpeg" alt="descrição da imagem"></button>
         <button class="tecla tecla-som-2"><img src="./img/b.jpeg" alt="descrição da imagem"></button>
@@ -21,5 +31,17 @@
         <button class="tecla tecla-som-8"><img src="./img/h.jpeg" alt="descrição da imagem"></button>
         <button class="tecla tecla-som-9"><img src="./img/i.jpeg" alt="descrição da imagem"></button>
     </section>
+
+    <audio src="./song/som1.mp3" id="som_tecla_som1"></audio>
+    <audio src="./song/som2.mp3" id="som_tecla_som2"></audio>
+    <audio src="./song/som3.mp3" id="som_tecla_som3"></audio>
+    <audio src="./song/som4.mp3" id="som_tecla_som4"></audio>
+    <audio src="./song/som5.mp3" id="som_tecla_som5"></audio>
+    <audio src="./song/som6.mp3" id="som_tecla_som6"></audio>
+    <audio src="./song/som7.mp3" id="som_tecla_som7"></audio>
+    <audio src="./song/som8.mp3" id="som_tecla_som8"></audio>
+    <audio src="./song/som9.mp3" id="som_tecla_som9"></audio>
+
+    <script src="main.js"></script>
 </body>
 </html>
